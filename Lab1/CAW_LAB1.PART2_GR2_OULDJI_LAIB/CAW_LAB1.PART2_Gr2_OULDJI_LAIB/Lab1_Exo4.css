@@ -1,0 +1,34 @@
+/* 3 margin + background + font color */
+body {
+    margin: 70px 50px 70px 120px;  /* top, right, bottom, left */             
+    background-color: #e8eae8; 
+    color: #5d665b;           
+    font-family: Arial, Helvetica, sans-serif; /* 5 text font   */
+     font-size: small;              /* small font size */
+    line-height: 180%;
+}
+
+h2:first-of-type {
+    font-size: 75%;
+}
+
+/* First <p> element — font size 70% of body font size */
+p:first-of-type {
+    font-size: 70%;
+}
+
+/* Second <p> element — indent the first line by 3em */
+p:nth-of-type(2) {
+    text-indent: 3em;
+}
+
+/* 7 */
+h2 {
+    color: #966b72;                /* font color for h2 */
+    font-family: Georgia, serif;   /* Georgia font */
+}
+
+h1 {
+    color: #ffffdd;                /* title color */
+   
+}
