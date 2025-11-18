@@ -9,6 +9,7 @@ function first(array, n) {
     return array.slice(0, n);
 }
 
+
 function last(array, n) {
     if (array == null)
         return [];
@@ -17,7 +18,9 @@ function last(array, n) {
     return array.slice(Math.max(array.length - n, 0));
 }
 
+
 const myColor = ["Red", "Green", "White", "Black"];
+
 
 function chunk(array, size) {
     var chunkedArr = [];
